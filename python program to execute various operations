@@ -1,0 +1,66 @@
+#  Get input values
+a = int(input("Enter value for a: "))
+b = int(input("Enter value for b: "))
+# Arithmetic Expressions
+print("Arithmetic Expressions:")
+print("a + b =", a + b)
+print("a - b =", a - b)
+print("a * b =", a * b)
+print("a / b =", a / b)
+print("a % b =", a % b)
+print("a // b =", a // b)
+print("a ** b =", a ** b)
+# Relational Expressions
+print("\nRelational Expressions:")
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a >= b:", a >= b)
+print("a <= b:", a <= b)
+# Logical Expressions
+print("\nLogical Expressions:")
+print("a > 0 and b > 0:", a > 0 and b > 0)
+print("a > 0 or b > 0:", a > 0 or b > 0)
+print("not(a > 0):", not(a > 0))
+#  Assignment Expressions
+print("\nAssignment Expressions:")
+x = a
+print("Initial x =", x)
+x += b
+print("x += b:", x)
+x -= b
+print("x -= b:", x)
+x *= b
+print("x *= b:", x)
+x /= b
+print("x /= b:", x)
+Sample Input/Output:
+Enter value for a: 10
+Enter value for b: 5
+Arithmetic Expressions:
+a + b = 15
+a - b = 5
+a * b = 50
+a / b = 2.0	
+a % b = 0
+a // b = 2
+a ** b = 100000
+Relational Expressions:
+a > b: True
+a < b: False
+a == b: False
+a != b: True
+a >= b: True
+a <= b: False
+Logical Expressions:
+a > 0 and b > 0: True
+a > 0 or b > 0: True
+not(a > 0): False
+
+Assignment Expressions:
+Initial x = 10
+x += b: 15
+x -= b: 10
+x *= b: 50
+x /= b: 10.0
